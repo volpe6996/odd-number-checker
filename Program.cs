@@ -21,9 +21,9 @@ namespace OddNumberChecker
                     break;
             }
             if (checkNumber.EvenOrOdd(inputNumber))
-                Console.WriteLine("Liczba dodatnia!");
+                Console.WriteLine("Liczba parzysta!");
             else
-                Console.WriteLine("Liczba ujemna!");
+                Console.WriteLine("Liczba nieparzysta!");
         }
     }
 }
