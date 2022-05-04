@@ -18,9 +18,12 @@ namespace OddNumberChecker
                     continue;
                 }
                 else
-                    checkNumber.IsOddNumber(inputNumber);
                     break;
             }
+            if (checkNumber.EvenOrOdd(inputNumber))
+                Console.WriteLine("Liczba dodatnia!");
+            else
+                Console.WriteLine("Liczba ujemna!");
         }
     }
 }

@@ -8,12 +8,12 @@ namespace OddNumberChecker
 {
     public class CheckNumber
     {
-        public void IsOddNumber(int num)
+        public bool EvenOrOdd(int num)
         {
-            if (num %2 == 0)
-                Console.WriteLine("Liczba dodatnia");
+            if (num % 2 == 0)
+                return true;
             else
-                Console.WriteLine("Liczba ujemna");
+                return false;
         }
     }
 }
